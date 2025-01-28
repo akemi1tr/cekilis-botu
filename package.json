@@ -1,0 +1,27 @@
+{
+    "name": "discord-giveaway-bot",
+    "version": "1.0.0",
+    "description": "Discord Giveaway Bot with Croxy DB",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "giveaway",
+        "croxydb"
+    ],
+    "author": "YourName",
+    "license": "ISC",
+    "dependencies": {
+        "croxydb": "^0.0.7",
+        "discord.js": "^14.17.3",
+        "dotenv": "^16.4.7",
+        "ms": "^2.1.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
